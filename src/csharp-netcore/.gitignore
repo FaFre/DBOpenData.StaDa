@@ -184,3 +184,10 @@ $RECYCLE.BIN/
 
 # Visual Studio 2014 CTP
 **/*.sln.ide
+
+# VSCode
+.vscode/*
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/

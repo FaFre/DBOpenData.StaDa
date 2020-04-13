@@ -13,7 +13,7 @@ The version of the OpenAPI document: 2.2.01
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Org.OpenAPITools.Test</RootNamespace>
     <AssemblyName>Org.OpenAPITools.Test</AssemblyName>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
     <IsPackable>false</IsPackable>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
