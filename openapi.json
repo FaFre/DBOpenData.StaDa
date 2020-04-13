@@ -334,6 +334,13 @@
     }
   },
   "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "Access Token"
+      }
+    },
     "schemas": {
       "StationQuery": {
         "type": "object",
@@ -798,5 +805,10 @@
         ]
       }
     }
-  }
+  },
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ]
 }
